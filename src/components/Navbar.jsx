@@ -1,4 +1,4 @@
-import { ArrowRight, Map, Layers } from 'lucide-react';
+import { ArrowRight, Map } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -22,10 +22,10 @@ export default function Navbar() {
           </div>
 
           <a
-            href="#contact"
+            href="#login"
             className="group inline-flex items-center gap-2 rounded-full bg-emerald-500 px-4 py-2 text-sm font-medium text-black hover:bg-emerald-400 transition"
           >
-            Mulai Eksplorasi
+            Login
             <ArrowRight className="h-4 w-4 transition -translate-x-0.5 group-hover:translate-x-0" />
           </a>
         </nav>
